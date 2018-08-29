@@ -86,12 +86,12 @@ transaction from block #1.
 
 {% highlight bash %}
 bitcoin-cli -regtest getbalance
-50.00000000
+5000.00000000
 {% endhighlight %}
 
 {% autocrossref %}
 
-Verify that we now have 50 bitcoins available to spend.
+Verify that we now have 5000 bitcoins available to spend.
 
 You can now use Bitcoin Core RPCs prefixed with `bitcoin-cli -regtest`<!--noref-->.
 
